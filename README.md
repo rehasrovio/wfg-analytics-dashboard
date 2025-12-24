@@ -251,5 +251,3 @@ This project is private and proprietary.
 - Deployed on [Vercel](https://vercel.com)
 
 ---
-
-**Last Updated**: December 2024
