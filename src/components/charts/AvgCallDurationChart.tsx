@@ -45,7 +45,10 @@ export function AvgCallDurationChart({ data, onEdit }: AvgCallDurationChartProps
                 borderRadius: '8px',
                 color: '#FFFFFF',
               }}
-              formatter={(value: number) => [`${value}s`, 'Duration']}
+              formatter={(value: number | undefined) => {
+                if (value === undefined) return ['0s', 'Duration'];
+                return [`${value}s`, 'Duration'];
+              }}
             />
             <Line
               type="monotone"
