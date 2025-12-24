@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# development
+DESIGN_SYSTEM.md
+superbryn-design-system.css
+Instructions.md
