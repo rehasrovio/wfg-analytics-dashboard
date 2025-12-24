@@ -1,0 +1,84 @@
+.edit-form {
+  margin-bottom: var(--space-6);
+}
+
+.edit-description {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-4);
+}
+
+.edit-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: var(--space-2);
+}
+
+.edit-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.edit-label {
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--text-primary);
+}
+
+.confirm-overwrite {
+  margin-bottom: var(--space-6);
+}
+
+.confirm-message {
+  font-size: var(--text-base);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-4);
+}
+
+.previous-data-preview {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-sm);
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.preview-label {
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  color: var(--text-accent);
+  margin-bottom: var(--space-2);
+}
+
+.preview-data {
+  font-size: var(--text-xs);
+  color: var(--text-secondary);
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+  font-family: 'Courier New', monospace;
+}
+
+/* Scrollbar styling for edit-list */
+.edit-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.edit-list::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+}
+
+.edit-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.edit-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
