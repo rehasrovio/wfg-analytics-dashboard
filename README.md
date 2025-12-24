@@ -2,6 +2,10 @@
 
 A modern React + TypeScript analytics dashboard for displaying call analytics with editable charts and Supabase persistence.
 
+## 🌐 Live Demo
+
+**Deployed Application**: [https://wfg-analytics-dashboard-git-main-rehas-rovios-projects.vercel.app/](https://wfg-analytics-dashboard-git-main-rehas-rovios-projects.vercel.app/)
+
 ## 🚀 Features
 
 - **Three Analytics Charts**:
@@ -238,10 +242,6 @@ For more troubleshooting tips, see `INSTRUCTIONS.md`.
 - Supabase RLS policies allow all operations (adjust for production)
 - Environment variables should never be committed to version control
 - Input validation is basic - enhance for production use
-
-## 📝 License
-
-This project is private and proprietary.
 
 ## 🙏 Acknowledgments
 
